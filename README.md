@@ -4,5 +4,6 @@ Zwei öffentliche Testseiten mit **synthetischem Text** für den automatischen L
 
 - `seite-a.html`: weicht in genau einem Satz von der Fassung ab (erwartet: eine fehlende und eine zusätzliche Stelle).
 - `seite-b.html`: entspricht der Fassung (erwartet: keine Abweichung).
+- `seite-c.html`: Hülle wie B, im `main` unverändert das Lieferobjekt eines synthetischen Abnahme-Inhalts (erwartet: keine Abweichung); keine Quelle im Hub.
 
 Die Dateien sind byte-gleich zu `reply42-hub/src/lib/pages/testseiten/live-testseite-{a,b}.html` (Zeilenende LF). Nicht ändern, ohne die Quelle im Hub mitzuziehen. Kein echtes Produkt, keine Kundendaten.
