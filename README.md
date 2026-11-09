@@ -8,5 +8,6 @@ Zwei öffentliche Testseiten mit **synthetischem Text** für den automatischen L
 - `seite-d.html`: Hülle wie C, im `main` unverändert das Lieferobjekt des synthetischen Abnahme-Inhalts „Infografik L18“ mit Bilddatei `seite-dhtml-r42-6dda208c4dc4.png` (erwartet: keine Abweichung).
 - `seite-e.html`: wie D, aber das `img` verweist auf eine ältere Bildversion (`seite-dhtml-r42-dfcad256d257.png`, gleicher Alt-Text; erwartet: `bild_veraltet`). Die Bilddatei ist eine Kopie der Datei aus D, damit die Seite vollständig lädt.
 - `seite-f.html`: Hülle wie D, im `main` unverändert das Lieferobjekt des synthetischen Abnahme-Artikels „E2E L19 D1b: 7 Tipps für ein sicheres Bad im Alter“ (Lauf 19, ohne Health) mit seinen Bilddateien; nur das Autorenfoto liegt als lokale Kopie `seite-f-autor.png` vor (erwartet: keine Abweichung).
+- `seite-g.html`: Hülle wie D, im `main` unverändert das Lieferobjekt des synthetischen Abnahme-Artikels „E2E L19 D2: 5 Tipps für mehr Bewegungsfreiheit im Bad“ (Lauf 19, mit Health und Infografik) mit seinen Bilddateien; nur das Autorenfoto liegt als lokale Kopie `seite-g-autor.png` vor (erwartet: keine Abweichung).
 
 Die Dateien sind byte-gleich zu `reply42-hub/src/lib/pages/testseiten/live-testseite-{a,b}.html` (Zeilenende LF). Nicht ändern, ohne die Quelle im Hub mitzuziehen. Kein echtes Produkt, keine Kundendaten.
