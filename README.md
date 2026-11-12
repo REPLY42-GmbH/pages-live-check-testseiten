@@ -10,4 +10,8 @@ Zwei öffentliche Testseiten mit **synthetischem Text** für den automatischen L
 - `seite-f.html`: Hülle wie D, im `main` unverändert das Lieferobjekt des synthetischen Abnahme-Artikels „E2E L19 D1b: 7 Tipps für ein sicheres Bad im Alter“ (Lauf 19, ohne Health) mit seinen Bilddateien; nur das Autorenfoto liegt als lokale Kopie `seite-f-autor.png` vor (erwartet: keine Abweichung). Seit Lauf 20 (Testseite H) trägt sie die überarbeitete Fassung aus dem Refresh desselben Artikels, mit allen Bildern unter ihren gelieferten Dateinamen (erwartet: keine Abweichung).
 - `seite-g.html`: Hülle wie D, im `main` unverändert das Lieferobjekt des synthetischen Abnahme-Artikels „E2E L19 D2: 5 Tipps für mehr Bewegungsfreiheit im Bad“ (Lauf 19, mit Health und Infografik) mit seinen Bilddateien; nur das Autorenfoto liegt als lokale Kopie `seite-g-autor.png` vor (erwartet: keine Abweichung).
 
+- `seite-l23-fr-a.html`: Lauf 23, Fall A (Sprachfassung `fr-FR` ohne Marktkontakt): im `main` unverändert das Lieferobjekt, Hülle mit `lang="fr"` (erwartet: keine Abweichung).
+- `seite-l23-fr-b.html`: Lauf 23, Fall B (Sprachfassung `fr-FR` mit Marktkontakt): wie A (erwartet: keine Abweichung).
+- `seite-l23-fr-b-deutsch.html`: wie `seite-l23-fr-b.html`, aber mit synthetischem deutschem Text (erwartet: Abweichungen, Rückgabe an die Umsetzung).
+
 Die Dateien sind byte-gleich zu `reply42-hub/src/lib/pages/testseiten/live-testseite-{a,b}.html` (Zeilenende LF). Nicht ändern, ohne die Quelle im Hub mitzuziehen. Kein echtes Produkt, keine Kundendaten.
