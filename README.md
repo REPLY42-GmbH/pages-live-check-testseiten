@@ -13,5 +13,6 @@ Zwei öffentliche Testseiten mit **synthetischem Text** für den automatischen L
 - `seite-l23-fr-a.html`: Lauf 23, Fall A (Sprachfassung `fr-FR` ohne Marktkontakt): im `main` unverändert das Lieferobjekt, Hülle mit `lang="fr"` (erwartet: keine Abweichung).
 - `seite-l23-fr-b.html`: Lauf 23, Fall B (Sprachfassung `fr-FR` mit Marktkontakt): wie A (erwartet: keine Abweichung).
 - `seite-l23-fr-b-deutsch.html`: wie `seite-l23-fr-b.html`, aber mit synthetischem deutschem Text (erwartet: Abweichungen, Rückgabe an die Umsetzung).
+- `seite-pilot-prod-fr.html`: Production-Pilot vom 12.11.2026 (Sprachfassung `fr-FR` der Testorganisation Staging Test GmbH). Im `main` unverändert das Lieferobjekt; Hülle mit `lang="fr"` und dem Seitentitel aus „Meta und Links“ (erwartet: keine Abweichung).
 
 Die Dateien sind byte-gleich zu `reply42-hub/src/lib/pages/testseiten/live-testseite-{a,b}.html` (Zeilenende LF). Nicht ändern, ohne die Quelle im Hub mitzuziehen. Kein echtes Produkt, keine Kundendaten.
